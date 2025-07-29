@@ -1,0 +1,14 @@
+function double(x){
+    return x * 2;
+}
+
+const doubleExp = function(x){
+    return x * 2;
+}
+
+const doubleArrow = x => x * 2;
+
+
+console.log(double(10));        
+console.log(doubleExp(25));    
+console.log(doubleArrow(50));
